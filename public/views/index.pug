@@ -2,4 +2,13 @@ html
 	head
 		title="URL Shortener Microservice"
 	body
-		h1="URL Root Page"
+		h1="URL Shortener Microservice"
+		p="This microservice accepts requests to two endpoints https://www.mini-url.glitch.me/new/<link to shorten> and https://www.mini-url.glitch.me/<short code>"
+		h3="Example usage:"
+			ul 
+				li="https://www.mini-url.glitch.me/new/https://www.google.com"
+		h3="Returns:"
+			ul
+				li='{"original_url":"https://www.google.com","short_url":"mini-url.glitch.me/ry5Wt8A8@"}'
+		p="Once a url is saved if the short url is entered in the browser the service redirects to the original link"
+		a(href='https://github.com/whackdev/url-shortener' target="_blank") GitHub Repo
