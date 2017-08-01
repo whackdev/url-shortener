@@ -1,4 +1,4 @@
-#URL Shortener Microservice
+# URL Shortener Microservice
 
 This microservice accepts requests to two endpoints https://www.mini-url.glitch.me/new/<link to shorten> and https://www.mini-url.glitch.me/<short code>
 
