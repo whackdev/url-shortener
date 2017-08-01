@@ -10,4 +10,4 @@ Returns:
 
 Once a url is saved if the short url is entered in the browser the service redirects to the original link
 
-<a href="https://www.github.com/whackdev/url-shortener>GitHub Repo</a>
+[GitHub Repo](https://www.github.com/whackdev/url-shortener)
